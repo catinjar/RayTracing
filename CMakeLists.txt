@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.20)
+project(RayTracer)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(RayTracer src/main.cpp src/Vector3.cpp src/Vector3.hpp src/Ray.hpp src/HitRecord.hpp src/Hitable.hpp src/Sphere.cpp src/Sphere.hpp src/HitableList.cpp src/HitableList.hpp src/Camera.cpp src/Camera.hpp src/Material.hpp src/Lambertian.cpp src/Lambertian.hpp src/MathHelpers.cpp src/MathHelpers.hpp src/Metal.cpp src/Metal.hpp src/Dielectric.cpp src/Dielectric.hpp src/AABB.cpp src/AABB.hpp src/BvhNode.cpp src/BvhNode.hpp src/Texture.hpp src/ConstantTexture.cpp src/ConstantTexture.hpp src/CheckerTexture.cpp src/CheckerTexture.hpp src/Perlin.cpp src/Perlin.hpp src/NoiseTexture.cpp src/NoiseTexture.hpp src/ImageHelpers.cpp src/ImageHelpers.hpp src/ImageTexture.cpp src/ImageTexture.hpp src/DiffuseLight.cpp src/DiffuseLight.hpp src/Rect.hpp src/Scene.cpp src/Scene.hpp src/FlipNormals.cpp src/FlipNormals.hpp src/Box.cpp src/Box.hpp src/Translate.cpp src/Translate.hpp src/RotateY.cpp src/RotateY.hpp src/Isotropic.cpp src/Isotropic.hpp src/ConstantMedium.cpp src/ConstantMedium.hpp src/OrthoNormalBasis.cpp src/OrthoNormalBasis.hpp src/Pdf.hpp src/CosinePdf.cpp src/CosinePdf.hpp src/HitablePdf.cpp src/HitablePdf.hpp src/MixturePdf.cpp src/MixturePdf.hpp src/ScatterRecord.h src/ColorHelpers.cpp src/ColorHelpers.h)
