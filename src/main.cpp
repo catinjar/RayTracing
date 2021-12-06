@@ -105,12 +105,12 @@ int main()
 	for (const auto& future : futures)
 		future.wait();
 	
-	SavePng("output.png", scene.imageWidth, scene.imageHeight, pixels);
-	
 	const auto endTime = std::chrono::high_resolution_clock::now();
 	
 	std::chrono::duration<float> durationInSeconds = endTime - startTime;
 	std::cout << durationInSeconds.count() << std::endl;
+	
+	SavePng("output.png", scene.imageWidth, scene.imageHeight, pixels);
 	
 	return 0;
 }
