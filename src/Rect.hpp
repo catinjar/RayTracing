@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_RECT_HPP
-#define RAYTRACER_RECT_HPP
-
+#pragma once
 
 #include <utility>
 
@@ -89,5 +87,3 @@ public:
 	YZRect(float right0, float right1, float up0, float up1, float k, std::shared_ptr<Material> material)
 		: Rect<0, 1, 2>(right0, right1, up0, up1, k, std::move(material)) {}
 };
-
-#endif //RAYTRACER_RECT_HPP

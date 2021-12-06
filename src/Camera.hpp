@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_CAMERA_HPP
-#define RAYTRACER_CAMERA_HPP
-
+#pragma once
 
 #include "Vector3.hpp"
 #include "Ray.hpp"
@@ -26,6 +24,3 @@ public:
 	float timeStart = 0;
 	float timeEnd = 1;
 };
-
-
-#endif //RAYTRACER_CAMERA_HPP

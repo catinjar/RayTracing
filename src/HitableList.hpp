@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_HITABLELIST_HPP
-#define RAYTRACER_HITABLELIST_HPP
-
+#pragma once
 
 #include <utility>
 #include <vector>
@@ -29,6 +27,3 @@ public:
 private:
 	std::vector<std::shared_ptr<Hitable>> hitables;
 };
-
-
-#endif //RAYTRACER_HITABLELIST_HPP

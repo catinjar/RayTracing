@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_CHECKERTEXTURE_HPP
-#define RAYTRACER_CHECKERTEXTURE_HPP
-
+#pragma once
 
 #include <utility>
 
@@ -17,6 +15,3 @@ public:
 	std::shared_ptr<Texture> even;
 	std::shared_ptr<Texture> odd;
 };
-
-
-#endif //RAYTRACER_CHECKERTEXTURE_HPP

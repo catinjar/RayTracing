@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_ISOTROPIC_HPP
-#define RAYTRACER_ISOTROPIC_HPP
-
+#pragma once
 
 #include <utility>
 
@@ -17,6 +15,3 @@ public:
 	
 	std::shared_ptr<Texture> texture;
 };
-
-
-#endif //RAYTRACER_ISOTROPIC_HPP

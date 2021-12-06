@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_COSINEPDF_HPP
-#define RAYTRACER_COSINEPDF_HPP
-
+#pragma once
 
 #include "Pdf.hpp"
 #include "OrthoNormalBasis.hpp"
@@ -15,6 +13,3 @@ public:
 	
 	OrthoNormalBasis onb;
 };
-
-
-#endif //RAYTRACER_COSINEPDF_HPP

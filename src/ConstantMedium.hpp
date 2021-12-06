@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_CONSTANTMEDIUM_HPP
-#define RAYTRACER_CONSTANTMEDIUM_HPP
-
+#pragma once
 
 #include "Hitable.hpp"
 #include "Texture.hpp"
@@ -20,6 +18,3 @@ public:
 	float density;
 	std::shared_ptr<Material> phaseFunction;
 };
-
-
-#endif //RAYTRACER_CONSTANTMEDIUM_HPP

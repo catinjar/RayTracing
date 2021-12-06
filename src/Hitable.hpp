@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_HITABLE_HPP
-#define RAYTRACER_HITABLE_HPP
-
+#pragma once
 
 #include "Ray.hpp"
 #include "HitRecord.hpp"
@@ -15,6 +13,3 @@ public:
 	virtual float PdfValue(const Vector3 &origin, const Vector3 &direction) const { return 0; }
 	virtual Vector3 Random(const Vector3 &origin) const { return { 1, 0, 0 }; }
 };
-
-
-#endif //RAYTRACER_HITABLE_HPP

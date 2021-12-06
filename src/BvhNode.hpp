@@ -1,5 +1,4 @@
-#ifndef RAYTRACER_BVHNODE_HPP
-#define RAYTRACER_BVHNODE_HPP
+#pragma once
 
 #include <vector>
 
@@ -19,6 +18,3 @@ public:
 	
 	AABB boundingBox {};
 };
-
-
-#endif //RAYTRACER_BVHNODE_HPP

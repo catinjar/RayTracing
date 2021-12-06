@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_SCATTERRECORD_H
-#define RAYTRACER_SCATTERRECORD_H
-
+#pragma once
 
 #include "Ray.hpp"
 #include "Pdf.hpp"
@@ -12,6 +10,3 @@ struct ScatterRecord
 	Vector3 albedo;
 	std::shared_ptr<Pdf> pdf;
 };
-
-
-#endif //RAYTRACER_SCATTERRECORD_H

@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_SPHERE_HPP
-#define RAYTRACER_SPHERE_HPP
-
+#pragma once
 
 #include <utility>
 
@@ -32,6 +30,3 @@ public:
 	float moveTimeStart;
 	float moveTimeEnd;
 };
-
-
-#endif //RAYTRACER_SPHERE_HPP

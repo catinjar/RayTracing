@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_MATHHELPERS_HPP
-#define RAYTRACER_MATHHELPERS_HPP
-
+#pragma once
 
 #include "Vector3.hpp"
 
@@ -12,5 +10,3 @@ bool Refract(const Vector3& vector, const Vector3& normal, float refractiveIndex
 float Schlick(float cosine, float refractiveIndex);
 float HermiteCubic(float value);
 Vector3 GetRandomCosineDirection();
-
-#endif //RAYTRACER_MATHHELPERS_HPP

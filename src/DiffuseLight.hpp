@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_DIFFUSELIGHT_HPP
-#define RAYTRACER_DIFFUSELIGHT_HPP
-
+#pragma once
 
 #include <utility>
 
@@ -17,6 +15,3 @@ public:
 
 	std::shared_ptr<Texture> texture;
 };
-
-
-#endif //RAYTRACER_DIFFUSELIGHT_HPP

@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_FLIPNORMALS_HPP
-#define RAYTRACER_FLIPNORMALS_HPP
-
+#pragma once
 
 #include "Hitable.hpp"
 
@@ -14,6 +12,3 @@ public:
 	
 	std::shared_ptr<Hitable> hitable;
 };
-
-
-#endif //RAYTRACER_FLIPNORMALS_HPP

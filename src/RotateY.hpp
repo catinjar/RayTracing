@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_ROTATEY_HPP
-#define RAYTRACER_ROTATEY_HPP
-
+#pragma once
 
 #include "Hitable.hpp"
 
@@ -21,6 +19,3 @@ public:
 	bool hasBox;
 	AABB boundingBox {};
 };
-
-
-#endif //RAYTRACER_ROTATEY_HPP

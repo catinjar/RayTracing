@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_NOISETEXTURE_HPP
-#define RAYTRACER_NOISETEXTURE_HPP
-
+#pragma once
 
 #include "Texture.hpp"
 #include "Perlin.hpp"
@@ -15,6 +13,3 @@ public:
 	Perlin noise {};
 	float scale;
 };
-
-
-#endif //RAYTRACER_NOISETEXTURE_HPP

@@ -1,4 +1,4 @@
-#include "ColorHelpers.h"
+#include "ColorHelpers.hpp"
 
 Vector3 DeNan(const Vector3 &color)
 {

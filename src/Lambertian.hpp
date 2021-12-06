@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_LAMBERTIAN_HPP
-#define RAYTRACER_LAMBERTIAN_HPP
-
+#pragma once
 
 #include <utility>
 
@@ -18,6 +16,3 @@ public:
 	
 	std::shared_ptr<Texture> texture;
 };
-
-
-#endif //RAYTRACER_LAMBERTIAN_HPP

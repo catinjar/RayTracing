@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_MIXTUREPDF_HPP
-#define RAYTRACER_MIXTUREPDF_HPP
-
+#pragma once
 
 #include "Pdf.hpp"
 
@@ -20,6 +18,3 @@ public:
 	
 	const Pdf* pdfs[2] {};
 };
-
-
-#endif //RAYTRACER_MIXTUREPDF_HPP

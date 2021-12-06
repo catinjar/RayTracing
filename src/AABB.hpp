@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_AABB_HPP
-#define RAYTRACER_AABB_HPP
-
+#pragma once
 
 #include "Vector3.hpp"
 #include "Ray.hpp"
@@ -18,5 +16,3 @@ public:
 };
 
 AABB SurroundingBox(AABB box1, AABB box2);
-
-#endif //RAYTRACER_AABB_HPP

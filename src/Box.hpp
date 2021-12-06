@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_BOX_HPP
-#define RAYTRACER_BOX_HPP
-
+#pragma once
 
 #include "HitableList.hpp"
 
@@ -16,6 +14,3 @@ public:
 	Vector3 max;
 	HitableList sides;
 };
-
-
-#endif //RAYTRACER_BOX_HPP

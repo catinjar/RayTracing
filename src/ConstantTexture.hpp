@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_CONSTANTTEXTURE_HPP
-#define RAYTRACER_CONSTANTTEXTURE_HPP
-
+#pragma once
 
 #include "Texture.hpp"
 
@@ -14,6 +12,3 @@ public:
 	
 	Vector3 color {};
 };
-
-
-#endif //RAYTRACER_CONSTANTTEXTURE_HPP

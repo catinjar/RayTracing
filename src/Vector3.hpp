@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_VECTOR3_HPP
-#define RAYTRACER_VECTOR3_HPP
-
+#pragma once
 
 #include <cmath>
 #include <iosfwd>
@@ -114,5 +112,3 @@ inline Vector3 Cross(const Vector3& left, const Vector3& right)
 			 -(left.x * right.z - left.z * right.x),
 			 left.x * right.y - left.y * right.x };
 }
-
-#endif //RAYTRACER_VECTOR3_HPP

@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_HITRECORD_HPP
-#define RAYTRACER_HITRECORD_HPP
-
+#pragma once
 
 #include "Vector3.hpp"
 
@@ -15,6 +13,3 @@ struct HitRecord
 	float u;
 	float v;
 };
-
-
-#endif //RAYTRACER_HITRECORD_HPP

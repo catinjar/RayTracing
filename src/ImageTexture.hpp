@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_IMAGETEXTURE_HPP
-#define RAYTRACER_IMAGETEXTURE_HPP
-
+#pragma once
 
 #include "Texture.hpp"
 
@@ -15,6 +13,3 @@ public:
 	int width = 0, height = 0;
 	unsigned char* pixels;
 };
-
-
-#endif //RAYTRACER_IMAGETEXTURE_HPP

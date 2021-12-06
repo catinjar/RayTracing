@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_SCENE_HPP
-#define RAYTRACER_SCENE_HPP
-
+#pragma once
 
 #include <memory>
 
@@ -26,5 +24,3 @@ struct Scene
 Scene CreateRandomScene();
 Scene CreateCornellBoxScene();
 Scene CreateAllFeaturesScene();
-
-#endif //RAYTRACER_SCENE_HPP

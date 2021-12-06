@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_RAY_HPP
-#define RAYTRACER_RAY_HPP
-
+#pragma once
 
 #include "Vector3.hpp"
 
@@ -16,6 +14,3 @@ struct Ray
 	
 	float time;
 };
-
-
-#endif //RAYTRACER_RAY_HPP

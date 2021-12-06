@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_TRANSLATE_HPP
-#define RAYTRACER_TRANSLATE_HPP
-
+#pragma once
 
 #include "Hitable.hpp"
 
@@ -15,6 +13,3 @@ public:
 	std::shared_ptr<Hitable> hitable;
 	Vector3 offset;
 };
-
-
-#endif //RAYTRACER_TRANSLATE_HPP

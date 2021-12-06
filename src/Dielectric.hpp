@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_DIELECTRIC_HPP
-#define RAYTRACER_DIELECTRIC_HPP
-
+#pragma once
 
 #include "Material.hpp"
 
@@ -13,6 +11,3 @@ public:
 	
 	float refractiveIndex;
 };
-
-
-#endif //RAYTRACER_DIELECTRIC_HPP

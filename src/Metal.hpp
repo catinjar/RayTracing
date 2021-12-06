@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_METAL_HPP
-#define RAYTRACER_METAL_HPP
-
+#pragma once
 
 #include <utility>
 
@@ -23,6 +21,3 @@ public:
 	std::shared_ptr<Texture> texture;
 	float fuzziness;
 };
-
-
-#endif //RAYTRACER_METAL_HPP

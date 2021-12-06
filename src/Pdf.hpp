@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_PDF_HPP
-#define RAYTRACER_PDF_HPP
-
+#pragma once
 
 #include "Vector3.hpp"
 
@@ -10,6 +8,3 @@ public:
 	virtual float Value(const Vector3 &direction) const = 0;
 	virtual Vector3 Generate() const = 0;
 };
-
-
-#endif //RAYTRACER_PDF_HPP

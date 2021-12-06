@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_HITABLEPDF_HPP
-#define RAYTRACER_HITABLEPDF_HPP
-
+#pragma once
 
 #include "Pdf.hpp"
 
@@ -19,6 +17,3 @@ public:
 	std::shared_ptr<Hitable> hitable;
 	Vector3 origin;
 };
-
-
-#endif //RAYTRACER_HITABLEPDF_HPP

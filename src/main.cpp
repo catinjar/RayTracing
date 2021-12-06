@@ -12,7 +12,7 @@
 #include "Scene.hpp"
 #include "HitablePdf.hpp"
 #include "MixturePdf.hpp"
-#include "ColorHelpers.h"
+#include "ColorHelpers.hpp"
 
 Vector3 GetScreenColor(const Ray& ray, const std::shared_ptr<Hitable>& world, const std::shared_ptr<Hitable>& importanceSamplingShape, int depth = 50)
 {

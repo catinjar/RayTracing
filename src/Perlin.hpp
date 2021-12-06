@@ -1,6 +1,4 @@
-#ifndef RAYTRACER_PERLIN_HPP
-#define RAYTRACER_PERLIN_HPP
-
+#pragma once
 
 #include <vector>
 #include "Vector3.hpp"
@@ -22,6 +20,3 @@ private:
 	std::vector<Vector3> GenerateVectors();
 	static std::vector<int> GeneratePermutation();
 };
-
-
-#endif //RAYTRACER_PERLIN_HPP
