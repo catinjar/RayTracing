@@ -67,23 +67,6 @@ public:
 	std::shared_ptr<Material> material;
 };
 
-class XYRect : public Rect<2, 0, 1>
-{
-public:
-	XYRect(float right0, float right1, float up0, float up1, float k, std::shared_ptr<Material> material)
-		: Rect<2, 0, 1>(right0, right1, up0, up1, k, std::move(material)) {}
-};
-
-class XZRect : public Rect<1, 0, 2>
-{
-public:
-	XZRect(float right0, float right1, float up0, float up1, float k, std::shared_ptr<Material> material)
-		: Rect<1, 0, 2>(right0, right1, up0, up1, k, std::move(material)) {}
-};
-
-class YZRect : public Rect<0, 1, 2>
-{
-public:
-	YZRect(float right0, float right1, float up0, float up1, float k, std::shared_ptr<Material> material)
-		: Rect<0, 1, 2>(right0, right1, up0, up1, k, std::move(material)) {}
-};
+using XYRect = Rect<2, 0, 1>;
+using XZRect = Rect<1, 0, 2>;
+using YZRect = Rect<0, 1, 2>;
