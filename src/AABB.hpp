@@ -15,4 +15,4 @@ public:
 	Vector3 max;
 };
 
-AABB SurroundingBox(AABB box1, AABB box2);
+AABB SurroundingBox(const AABB& box1, const AABB& box2);

@@ -22,7 +22,7 @@ bool AABB::Hit(const Ray &ray, float minT, float maxT) const
 	return true;
 }
 
-AABB SurroundingBox(AABB box1, AABB box2)
+AABB SurroundingBox(const AABB& box1, const AABB& box2)
 {
 	const Vector3 min(std::min(box1.min.x, box2.min.x), std::min(box1.min.y, box2.min.y), std::min(box1.min.z, box2.min.z));
 	const Vector3 max(std::max(box1.max.x, box2.max.x), std::max(box1.max.y, box2.max.y), std::max(box1.max.z, box2.max.z));
